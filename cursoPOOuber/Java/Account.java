@@ -4,4 +4,9 @@ class Account {
     String document;
     String email;
     String password;
+
+    public Account(string name, string document){
+        this.name = name;
+        this.document = document;
+    }
 }
